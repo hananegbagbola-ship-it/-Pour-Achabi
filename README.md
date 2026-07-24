@@ -30,9 +30,27 @@
         Bouraïma Moumtehinath Achabi ❤️
     </h1>
 
-    <button id="startBtn">
-        ✨ Commencer
+<button id="startBtn">
+    ✨ Découvre ce que mon cœur voulait te dire...
+</button>
+
+<div id="intro" style="display:none; margin-top:30px;">
+    <h2>❤️ Pour toi, Achabi...</h2>
+
+    <p style="margin-top:20px;font-size:18px;line-height:1.8;">
+        Cette surprise a été créée avec tout mon cœur.
+        <br><br>
+        Prends ton temps...
+        <br><br>
+        Chaque mot qui suit a été écrit uniquement pour toi. ❤️
+    </p>
+
+    <br>
+
+    <button id="continueBtn">
+        💌 Lire la lettre
     </button>
+</div>
 
 </div>
 
