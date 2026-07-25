@@ -8,7 +8,18 @@ DOCTYPE html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Cormorant+Garamond:ital,wght@0,600;1,600;1,700&family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root{
+  :cd /home/claude/build && python3 -c "
+with open('v3.html','r',encoding='utf-8') as f:
+    html = f.read()
+with open('photo3_b64.txt','r') as f:
+    b64 = f.read().strip()
+html = html.replace('__PHOTO_SRC__', 'data:image/jpeg;base64,' + b64)
+with open('v3_final.html','w',encoding='utf-8') as f:
+    f.write(html)
+print('done', len(html))
+"
+cp v3_final.html "/mnt/user-data/outputs/message-anniversaire-Achabi.html"
+echo OK
     --night-deep:#180810;
     --night-mid:#3a1230;
     --berry:#6e1d47;
@@ -24,6 +35,8 @@ DOCTYPE html>
     background:var(--night-deep);
     color:var(--cream);
     font-family:'Jost',sans-serif;
+
+    
     font-weight:500;
     overflow-x:hidden;
     -webkit-font-smoothing:antialiased;
@@ -179,7 +192,18 @@ DOCTYPE html>
   .closing-sub{font-size:13px; font-weight:700; letter-spacing:2px; color:var(--gold); margin-top:14px;}
   .hearts-final{margin-top:26px; font-size:22px; letter-spacing:10px; color:var(--rose);}
   .candle{width:3px; height:46px; background:linear-gradient(180deg,var(--gold),transparent); margin:0 auto 8px; border-radius:2px; position:relative;}
-  .flame{width:10px; height:16px; background:radial-gradient(circle,#ffe9b0,var(--gold) 70%,transparent); border-radius:50% 50% 50% 50%/60% 60% 40% 40%; position:absolute; top:-14px; left:50%; transform:translateX(-50%); animation:flicker 1.8s ease-in-out infinite;}
+  .flame{width:10px; height:16px; background:radial-gradient(circle,#ffe9b0,var(--gold) 70%,transparent); border-radius:50% 50% 50% 50%/60% 60% 40% 40%; position:absolute; top:-14px; left:50%; transform:translateX(-50%); animation:flicker 1.8s ease-in-out infinite;}cd /home/claude/build && python3 -c "
+with open('v3.html','r',encoding='utf-8') as f:
+    html = f.read()
+with open('photo3_b64.txt','r') as f:
+    b64 = f.read().strip()
+html = html.replace('__PHOTO_SRC__', 'data:image/jpeg;base64,' + b64)
+with open('v3_final.html','w',encoding='utf-8') as f:
+    f.write(html)
+print('done', len(html))
+"
+cp v3_final.html "/mnt/user-data/outputs/message-anniversaire-Achabi.html"
+echo OK
   @keyframes flicker{0%,100%{transform:translateX(-50%) scale(1) rotate(-2deg);}50%{transform:translateX(-50%) scale(1.1) rotate(3deg);}}
 </style>
 </head>
@@ -342,4 +366,17 @@ DOCTYPE html>
 </script>
 
 </body>
-</html>
+</html>cd /home/claude/build && python3 -c "
+with open('v3.html','r',encoding='utf-8') as f:
+    html = f.read()
+with open('photo3_b64.txt','r') as f:
+    b64 = f.read().strip()
+html = html.replace('__PHOTO_SRC__', 'data:image/jpeg;base64,' + b64)
+with open('v3_final.html','w',encoding='utf-8') as f:
+    f.write(html)
+print('done', len(html))
+"
+cp v3_final.html "/mnt/user-data/outputs/message-anniversaire-Achabi.html"
+echo OK
+
+
